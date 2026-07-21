@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bolt', 'nuts']
+
+roboflow:
+  workspace: dhritis-workspace
+  project: nuts-and-bolts-x72w2-r0uge
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/dhritis-workspace/nuts-and-bolts-x72w2-r0uge/1
